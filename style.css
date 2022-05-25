@@ -24,10 +24,10 @@ body {
 
 .logo {
   position: absolute;
-  top: 30px;
-  font-size: 45px;
+  top: 40px;
+  font-size: 18px;
   font-weight: 700;
-  padding: 36px;
+  padding: 24px;
   color: #6070ff;
 }
 
@@ -46,7 +46,7 @@ section {
 }
 
 .content {
-  margin-top: 300px;
+  margin-top: 150px;
   padding: 24px;
 }
 
@@ -79,13 +79,13 @@ p {
 
 .media {
   margin-top: 30px;
-  margin-bottom: 120px;
+  margin-bottom: 150px;
 }
 
 .s-media li {
   display: inline;
   list-style-type: none;
-  padding: 10px;
+  padding: 5px;
   height: 100%;
 }
 
@@ -93,5 +93,5 @@ p {
   background-image: url("images/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position: center 5px;
+  background-position: center 3px;
 }
