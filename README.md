@@ -53,9 +53,9 @@ Install webint and styleint
 
 👤 **Thokozani Ngubane**
 
-- GitHub: MxoDevops
-- Twitter: @Godecuy
-- LinkedIn: Thokozani Ngubane
+- GitHub: MxoDevops [https://github.com/MxoDevops]
+- Twitter: @Godecuy [https://twitter.com/Godecuy]
+- LinkedIn: Thokozani Ngubane [https://www.linkedin.com/in/thokozani-ngubane-125b26189/]
 
 ## 🤝 Contributing
 
