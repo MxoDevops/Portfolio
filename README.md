@@ -29,9 +29,17 @@ To run this project you will need, 1)Visual Studio Code. 2) knowlegde of HTML & 
 ### Setup
 To copy this project please do the following. 1)Open this project. 2) Navigate to code 3) Then download the files
 
+
+
+### Install
+install VS code
+Install webint and styleint
+
+
 ### Install
 1) install VS code
 2) Install webint and styleint
+
 
 ### Usage
 
@@ -43,13 +51,11 @@ To copy this project please do the following. 1)Open this project. 2) Navigate t
 
 ## Authors
 
-👤 **Author1**
+👤 **Thokozani Ngubane**
 
-- GitHub: MxoDevops
-- Twitter: @Godecuy
-- LinkedIn: Thokozani Ngubane
-
-
+- GitHub: MxoDevops [https://github.com/MxoDevops]
+- Twitter: @Godecuy [https://twitter.com/Godecuy]
+- LinkedIn: Thokozani Ngubane [https://www.linkedin.com/in/thokozani-ngubane-125b26189/]
 
 ## 🤝 Contributing
 
@@ -62,8 +68,6 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-Microverse for the awesome template
 
 ## 📝 License
 
