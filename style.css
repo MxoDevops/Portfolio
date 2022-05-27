@@ -114,6 +114,7 @@ p {
   gap: 4rem;
   margin-top: 40px;
 }
+
 .projects {
   align-content: center;
 }
@@ -134,6 +135,7 @@ h2 {
   font-weight: 700;
   padding-left: 24px;
 }
+
 .info {
   display: flex;
   flex-direction: row;
@@ -150,21 +152,14 @@ h2 {
   color: #7a869a;
 }
 
-.info li:first-child {
-  color: #344563;
-  font-size: 14px;
+.skillset li {
+  width: 303px;
+  height: 66.2px;
+  background-color: #f7f7f9;
+  font-size: 15px;
+  list-style-type: none;
 }
 
-.info-2 {
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
-  padding-left: 24px;
-}
-.languages {
-  margin-top: 12px;
-  padding-left: 24px;
-}
 .languages li {
   display: inline;
   list-style-type: none;
@@ -177,6 +172,24 @@ h2 {
   background-color: #ebebff;
   border: none;
 }
+
+.info li:first-child {
+  color: #344563;
+  font-size: 14px;
+}
+
+.info-2 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 24px;
+}
+
+.languages {
+  margin-top: 12px;
+  padding-left: 24px;
+}
+
 .button {
   padding-left: 24px;
 }
@@ -202,6 +215,7 @@ h2 {
   position: relative;
   left: 150px;
 }
+
 .fa-angle-right {
   position: relative;
   left: 150px;
@@ -210,14 +224,6 @@ h2 {
 h6 .fa-angle-right {
   position: relative;
   left: 213px;
-}
-
-.skillset li {
-  width: 303px;
-  height: 66.2px;
-  background-color: #f7f7f9;
-  font-size: 15px;
-  list-style-type: none;
 }
 
 .icons {
@@ -232,7 +238,6 @@ h6 .fa-angle-right {
   background-color: rgb(255, 255, 255);
   border-top-right-radius: 50px;
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .resume-btn {
