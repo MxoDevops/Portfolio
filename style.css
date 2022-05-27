@@ -152,12 +152,17 @@ h2 {
   color: #7a869a;
 }
 
+.skillset {
+  padding-top: 5px;
+}
+
 .skillset li {
   width: 303px;
   height: 66.2px;
   background-color: #f7f7f9;
   font-size: 15px;
   list-style-type: none;
+  margin-top: 35px;
 }
 
 .languages li {
@@ -226,8 +231,8 @@ h6 .fa-angle-right {
 }
 
 .icons {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
 }
 
 .main-2 {
