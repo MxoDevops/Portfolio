@@ -89,6 +89,7 @@ p {
   list-style-type: none;
   padding: 5px;
   height: 100%;
+  color: #505f79;
 }
 
 .img {
@@ -163,6 +164,16 @@ h2 {
   font-size: 15px;
   list-style-type: none;
   margin-top: 35px;
+  text-indent: 10px;
+}
+.skillset .icons {
+  text-align: left;
+}
+
+li span {
+  position: relative;
+  left: 10px;
+  bottom: 5px;
 }
 
 .languages li {
@@ -231,8 +242,10 @@ h6 .fa-angle-right {
 }
 
 .icons {
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 7px;
 }
 
 .main-2 {
