@@ -166,6 +166,14 @@ h2 {
   margin-top: 35px;
   text-indent: 10px;
 }
+
+.icons {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 7px;
+}
+
 .skillset .icons {
   text-align: left;
 }
@@ -239,13 +247,6 @@ li span {
 h6 .fa-angle-right {
   position: relative;
   left: 213px;
-}
-
-.icons {
-  width: 48px;
-  height: 48px;
-  position: relative;
-  top: 7px;
 }
 
 .main-2 {
