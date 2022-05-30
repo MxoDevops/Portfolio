@@ -196,6 +196,14 @@ li span {
   border: none;
 }
 
+.html {
+  float: inline-start;
+}
+
+.javascript {
+  float: inline-end;
+}
+
 .info li:first-child {
   color: #344563;
   font-size: 14px;
