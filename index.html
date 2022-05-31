@@ -196,10 +196,27 @@
         action="https://formspree.io/mxolisithokozani7@gmail.com"
         method="POST"
       >
-        <input class="name" type="text" name="name" />
-        <input class="email" type="email" name="email" />
+        <input
+          class="name"
+          type="text"
+          name="name"
+          maxlength="30"
+          placeholder="Full Name"
+          required
+        />
+        <input
+          class="email"
+          type="email"
+          name="email"
+          placeholder="yourname@example.com"
+        />
 
-        <textarea class="message" name="message"></textarea>
+        <textarea
+          class="message"
+          name="message"
+          maxlength="500"
+          placeholder="Write your message here"
+        ></textarea>
 
         <!-- your other form fields go here -->
         <button class="submit" type="submit">Get In Touch</button>

@@ -355,8 +355,8 @@ form {
 }
 
 .image-2 {
-  background-image: url("images/contactform.png");
+  background-image: url("images/contact.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center 90px;
+  background-size: 100% 100%;
+  background-position: center;
 }
