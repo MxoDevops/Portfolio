@@ -9,7 +9,7 @@
 html,
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #e5e5e5;
+  background-color: #e7e4e4f8;
   overflow: scroll;
 }
 
@@ -281,4 +281,82 @@ h6 {
   font-weight: 500;
   margin-top: 20px;
   margin-bottom: 7px;
+}
+footer {
+  background-color: #6070ff;
+  border-top-left-radius: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.contact {
+  position: relative;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  top: 200px;
+}
+
+.info-3 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 200px;
+  top: 200px;
+}
+
+.name {
+  width: 327px;
+  height: 48px;
+  margin-top: 87px;
+  margin-left: 24px;
+  border-radius: 8px;
+}
+
+.email {
+  width: 327px;
+  height: 48px;
+  margin-top: 20px;
+  margin-left: 24px;
+  border-radius: 8px;
+}
+
+.message {
+  width: 327px;
+  height: 127px;
+  margin-top: 18px;
+  margin-left: 24px;
+  border-radius: 8px;
+}
+
+.submit {
+  width: 140px;
+  height: 48px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-top: 22px;
+  margin-left: 24px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  color: #6070ff;
+  background-color: #fff;
+  margin-bottom: 45px;
+}
+
+.image-2 {
+  background-image: url("images/contactform.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center 90px;
 }
