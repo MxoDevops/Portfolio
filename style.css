@@ -361,3 +361,10 @@ form {
   background-size: 100% 100%;
   background-position: center;
 }
+
+input::placeholder,
+textarea::placeholder {
+  font-family: "poppins", sans-serif;
+  font-size: 15px;
+  padding: 10px;
+}
