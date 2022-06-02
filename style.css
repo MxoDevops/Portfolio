@@ -116,10 +116,6 @@ p {
   margin-top: 40px;
 }
 
-.projects {
-  align-content: center;
-}
-
 .img-cards {
   width: 295px;
   height: 220px;
@@ -164,7 +160,6 @@ h2 {
   font-size: 15px;
   list-style-type: none;
   margin-top: 35px;
-  text-indent: 10px;
 }
 
 .icons {
@@ -367,4 +362,225 @@ textarea::placeholder {
   font-family: "poppins", sans-serif;
   font-size: 15px;
   padding: 10px;
+}
+
+.nav-items {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .bars {
+    display: none;
+  }
+
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style-type: none;
+    justify-content: center;
+    position: relative;
+    left: 990px;
+    top: 70px;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .nav-items a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .logo {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
+  .paragraph-1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 930px;
+  }
+
+  .connect {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .img {
+    background-image: url("images/Header\ bg@2x.png");
+  }
+
+  .work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+
+  .cards > * {
+    width: 1050px;
+    height: 496px;
+    border: 2px solid rgb(201, 197, 197);
+    border-radius: 10px;
+    background-color: #fff;
+    gap: 4rem;
+    margin-top: 40px;
+  }
+
+  .img-cards {
+    width: 544px;
+    height: 448px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 24px;
+    margin-top: 10px;
+  }
+
+  .float {
+    float: right;
+    position: relative;
+  }
+
+  h2 {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    right: 400px;
+  }
+
+  .info {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .project-btn {
+    margin-top: 30px;
+  }
+
+  .info-2 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 496px;
+  }
+
+  .about-info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 50px;
+    margin-top: 100px;
+  }
+
+  .about-info-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 142px;
+  }
+
+  .about-text {
+    width: 447px;
+    height: 102px;
+  }
+
+  .my-skills {
+    margin-left: 120px;
+  }
+
+  .skillset {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .skillset li {
+    width: 122px;
+    height: 120px;
+    background-color: #f7f7f9;
+    font-size: 15px;
+    list-style-type: none;
+    margin-top: 35px;
+  }
+
+  .icons {
+    position: relative;
+    left: 10px;
+  }
+
+  li span {
+    position: relative;
+    top: 15px;
+    right: 50px;
+  }
+
+  li .HTML {
+    position: relative;
+    top: 38px;
+    right: 120px;
+  }
+
+  .contact {
+    margin-left: 87px;
+  }
+
+  .info-3 {
+    width: 596px;
+    height: 102px;
+    margin-left: 400px;
+  }
+
+  .image-2 {
+    background-image: url("images/contact\ form\ background\ shapes@2x.png");
+  }
+
+  .name {
+    width: 447px;
+    height: 48px;
+    margin-top: 87px;
+    margin-left: 497px;
+    border-radius: 8px;
+  }
+
+  .email {
+    width: 447px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: 497px;
+    border-radius: 8px;
+  }
+
+  .message {
+    width: 447px;
+    height: 170px;
+    margin-top: 18px;
+    margin-left: 497px;
+    border-radius: 8px;
+  }
+
+  .submit {
+    margin-left: 650px;
+  }
 }
