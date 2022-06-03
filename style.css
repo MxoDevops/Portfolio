@@ -280,7 +280,7 @@ h6 {
   font-size: 20px;
   font-weight: 500;
   margin-top: 20px;
-  margin-bottom: 7px;
+  margin-bottom: 12px;
 }
 
 footer {
@@ -385,7 +385,7 @@ textarea::placeholder {
     list-style-type: none;
     justify-content: center;
     position: relative;
-    left: 990px;
+    left: 1020px;
     top: 70px;
     font-size: 15px;
     line-height: 16px;
@@ -443,7 +443,7 @@ textarea::placeholder {
   }
 
   .cards > * {
-    width: 1050px;
+    width: 1156px;
     height: 496px;
     border: 2px solid rgb(201, 197, 197);
     border-radius: 10px;
@@ -461,9 +461,15 @@ textarea::placeholder {
     padding-left: 24px;
     margin-top: 10px;
   }
+  .img-card-2 {
+    position: relative;
+    left: 50px;
+  }
 
   .float {
     float: right;
+    position: relative;
+    right: 90px;
   }
 
   .float-2 {
@@ -489,6 +495,16 @@ textarea::placeholder {
     margin-top: 30px;
   }
 
+  button:hover {
+    background-color: #396df2;
+    color: white;
+  }
+
+  button:disabled,
+  button[disabled] {
+    color: #5e6c84;
+  }
+
   .info-2 {
     margin-top: 40px;
     margin-bottom: 30px;
@@ -508,6 +524,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     margin-left: 142px;
+    margin-top: 142px;
   }
 
   .about-text {
@@ -516,7 +533,8 @@ textarea::placeholder {
   }
 
   .my-skills {
-    margin-left: 120px;
+    margin-left: 37px;
+    margin-top: 142px;
   }
 
   .skillset {
@@ -532,6 +550,25 @@ textarea::placeholder {
     font-size: 15px;
     list-style-type: none;
     margin-top: 35px;
+  }
+
+  .fa-angle-down {
+    position: relative;
+    left: 370px;
+  }
+
+  .fa-angle-right {
+    position: relative;
+    left: 370px;
+  }
+
+  h6 .fa-angle-right {
+    position: relative;
+    left: 433px;
+  }
+
+  hr {
+    width: 500px;
   }
 
   .icons {
@@ -551,25 +588,35 @@ textarea::placeholder {
     right: 120px;
   }
 
+  .last-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .contact {
-    margin-left: 87px;
+    text-align: center;
   }
 
   .info-3 {
     width: 596px;
     height: 102px;
-    margin-left: 400px;
+    text-align: center;
   }
 
   .image-2 {
     background-image: url("images/contactformbackgroundshapes@2x.png");
   }
 
+  .footer {
+    text-align: center;
+  }
+
   .name {
     width: 447px;
     height: 48px;
     margin-top: 87px;
-    margin-left: 497px;
     border-radius: 8px;
   }
 
@@ -577,7 +624,6 @@ textarea::placeholder {
     width: 447px;
     height: 48px;
     margin-top: 20px;
-    margin-left: 497px;
     border-radius: 8px;
   }
 
@@ -585,11 +631,11 @@ textarea::placeholder {
     width: 447px;
     height: 170px;
     margin-top: 18px;
-    margin-left: 497px;
     border-radius: 8px;
   }
 
   .submit {
-    margin-left: 650px;
+    text-align: center;
+    margin-left: 175px;
   }
 }
