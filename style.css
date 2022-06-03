@@ -229,6 +229,11 @@ li span {
   left: 24px;
 }
 
+.project-btn:hover {
+  background-color: #396df2;
+  color: #fff;
+}
+
 .fa-angle-down {
   position: relative;
   left: 150px;
@@ -427,7 +432,7 @@ textarea::placeholder {
   }
 
   .img {
-    background-image: url("images/Header\ bg@2x.png");
+    background-image: url("images/Headerbg@2x.png");
   }
 
   .work {
@@ -459,6 +464,10 @@ textarea::placeholder {
 
   .float {
     float: right;
+  }
+
+  .float-2 {
+    float: left;
     position: relative;
   }
 
@@ -527,13 +536,13 @@ textarea::placeholder {
 
   .icons {
     position: relative;
-    left: 10px;
+    left: 40px;
   }
 
   li span {
     position: relative;
     top: 15px;
-    right: 50px;
+    right: 70px;
   }
 
   li .HTML {
@@ -553,7 +562,7 @@ textarea::placeholder {
   }
 
   .image-2 {
-    background-image: url("images/contact\ form\ background\ shapes@2x.png");
+    background-image: url("images/contactformbackgroundshapes@2x.png");
   }
 
   .name {
