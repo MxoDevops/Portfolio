@@ -419,6 +419,7 @@ textarea::placeholder {
     font-weight: 700;
     line-height: 20px;
     text-decoration: none;
+    color: #2d34f0;
   }
 
   #main {
@@ -445,6 +446,7 @@ textarea::placeholder {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    color: #0a23ff;
   }
 
   .img {
@@ -478,6 +480,10 @@ textarea::placeholder {
     margin-top: 10px;
   }
 
+  .languages {
+    color: #0016db;
+  }
+
   .img-card-2 {
     position: relative;
     left: 50px;
@@ -506,6 +512,7 @@ textarea::placeholder {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
+    color: #545454;
   }
 
   .project-btn {
