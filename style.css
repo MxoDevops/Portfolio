@@ -26,7 +26,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   padding: 24px;
-  color: #6070ff;
+  color: #2d34f0;
 }
 
 .fa-bars {
@@ -73,7 +73,7 @@ p {
 
 .btn {
   text-decoration: none;
-  color: #7f8cff;
+  color: #0f27ff;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -146,7 +146,7 @@ h2 {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  color: #7a869a;
+  color: #485060;
 }
 
 .skillset {
@@ -186,7 +186,7 @@ li span {
   border-radius: 10px;
   font-size: 12px;
   line-height: 16px;
-  color: #6070ff;
+  color: #0018f0;
   background-color: #ebebff;
   border: none;
 }
@@ -311,9 +311,10 @@ form {
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  color: #ebebff;
   margin-bottom: 200px;
   top: 200px;
+  background-color: #0a23ff;
+  color: #fff;
 }
 
 .name {
@@ -350,7 +351,7 @@ form {
   margin-left: 24px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #001aff;
   background-color: #fff;
   margin-bottom: 45px;
 }
@@ -419,6 +420,7 @@ textarea::placeholder {
     font-weight: 700;
     line-height: 20px;
     text-decoration: none;
+    color: #2d34f0;
   }
 
   #main {
@@ -445,6 +447,7 @@ textarea::placeholder {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    color: #0a23ff;
   }
 
   .img {
@@ -478,6 +481,10 @@ textarea::placeholder {
     margin-top: 10px;
   }
 
+  .languages li {
+    color: #0017eb;
+  }
+
   .img-card-2 {
     position: relative;
     left: 50px;
@@ -506,6 +513,7 @@ textarea::placeholder {
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
+    color: #545454;
   }
 
   .project-btn {
@@ -545,7 +553,7 @@ textarea::placeholder {
   }
 
   .about-text {
-    width: 447px;
+    width: 4477px;
     height: 102px;
   }
 
@@ -620,6 +628,8 @@ textarea::placeholder {
     width: 596px;
     height: 102px;
     text-align: center;
+    background-color: #0a23ff;
+    color: #fff;
   }
 
   .image-2 {
@@ -651,8 +661,18 @@ textarea::placeholder {
     border-radius: 8px;
   }
 
+  .label {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
   .submit {
     text-align: center;
     margin-left: 175px;
+    color: #001aff;
   }
 }
