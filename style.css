@@ -661,8 +661,13 @@ textarea::placeholder {
     border-radius: 8px;
   }
 
-  .tags label {
-    visibility: hidden;
+  .label {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
   }
 
   .submit {
