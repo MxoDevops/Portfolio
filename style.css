@@ -73,7 +73,7 @@ p {
 
 .btn {
   text-decoration: none;
-  color: #7f8cff;
+  color: #0f27ff;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -186,7 +186,7 @@ li span {
   border-radius: 10px;
   font-size: 12px;
   line-height: 16px;
-  color: #6070ff;
+  color: #0018f0;
   background-color: #ebebff;
   border: none;
 }
@@ -311,9 +311,10 @@ form {
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  color: #ebebff;
   margin-bottom: 200px;
   top: 200px;
+  background-color: #0a23ff;
+  color: #fff;
 }
 
 .name {
@@ -350,7 +351,7 @@ form {
   margin-left: 24px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #001aff;
   background-color: #fff;
   margin-bottom: 45px;
 }
@@ -552,7 +553,7 @@ textarea::placeholder {
   }
 
   .about-text {
-    width: 447px;
+    width: 4477px;
     height: 102px;
   }
 
@@ -627,6 +628,8 @@ textarea::placeholder {
     width: 596px;
     height: 102px;
     text-align: center;
+    background-color: #0a23ff;
+    color: #fff;
   }
 
   .image-2 {
@@ -658,8 +661,13 @@ textarea::placeholder {
     border-radius: 8px;
   }
 
+  .tags span {
+    visibility: hidden;
+  }
+
   .submit {
     text-align: center;
     margin-left: 175px;
+    color: #001aff;
   }
 }
