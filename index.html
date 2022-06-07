@@ -221,25 +221,27 @@
         </p>
       </div>
       <form action="https://formspree.io/f/mdobbyrd" method="POST">
-        <label class="label" for="name"> Name</label>
+        <label class="label" for="name" hidden> Name</label>
         <input
-          class="name"
+          class="name" id="name"
           type="text"
           maxlength="30"
           placeholder="Full Name"
           required
         />
-        <label class="label" for="email">Email</label>
+        <label class="label" for="email" hidden>Email</label>
         <input
           class="email"
+          id="email"
           type="email"
           name="email"
           placeholder="yourname@example.com"
           required
         />
-        <label class="label" for="need-help">Need help?</label>
+        <label class="label" for="need-help" hidden>Need help?</label>
         <textarea
           class="message"
+          id="need-help"
           name="message"
           maxlength="500"
           placeholder="Write your message here"
