@@ -12,17 +12,17 @@
   </head>
   <body>
     <header>
-      <nav>
-        <div class="nav">
-          <a href="#" class="logo">My Logo</a>
-          <div>
-            <ul class="nav-items">
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="bars"><i class="fa fa-bars fa-2x"></i></div>
+      <nav class="navbar">
+        <a href="#" class="logo">Mx</a>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+          <span class="barz"></span>
+          <span class="barz"></span>
+          <span class="barz"></span>
         </div>
       </nav>
     </header>
@@ -223,7 +223,8 @@
       <form action="https://formspree.io/f/mdobbyrd" method="POST">
         <label class="label" for="name" hidden> Name</label>
         <input
-          class="name" id="name"
+          class="name"
+          id="name"
           type="text"
           maxlength="30"
           placeholder="Full Name"
@@ -250,6 +251,7 @@
         <!-- your other form fields go here -->
         <button class="submit" type="submit">Get In Touch</button>
       </form>
+      <script src="index.js"></script>
     </footer>
   </body>
 </html>
