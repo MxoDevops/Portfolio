@@ -39,6 +39,7 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   gap: 40px;
+  margin-top: 40px;
 }
 
 .logo {
@@ -422,6 +423,10 @@ textarea::placeholder {
   .nav-toggle.active .barz:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
     background-color: #fff;
+  }
+
+  .nav-menu {
+    margin-top: 0px;
   }
 
   .navbar ul {
