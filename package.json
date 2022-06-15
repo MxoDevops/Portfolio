@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MxoDevops/My-portfolio-microverse#readme",
   "devDependencies": {
+    "eslint": "^8.17.0",
     "hint": "^6.2.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
