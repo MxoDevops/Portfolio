@@ -427,6 +427,7 @@ textarea::placeholder {
 
   .nav-menu {
     margin-top: 1px;
+    gap: 0;
   }
 
   .navbar ul {
@@ -446,7 +447,9 @@ textarea::placeholder {
     font-weight: 600;
     color: #fff;
     margin-left: 40px;
-    margin-top: 40px;
+    position: relative;
+    top: 90px;
+    margin-top: 12px;
   }
 
   .nav-item a {
