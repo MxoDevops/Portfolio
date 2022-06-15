@@ -418,11 +418,10 @@ textarea::placeholder {
     background-color: #fff;
   }
 
-  .nav-menu {
-    position: absolute;
+  .navbar ul {
+    position: fixed;
     left: -100%;
     justify-content: flex-start;
-    gap: 0;
     flex-direction: column;
     background-color: #396df2e1;
     width: 100%;
@@ -443,7 +442,7 @@ textarea::placeholder {
     color: #fff;
   }
 
-  .nav-menu.active {
+  .navbar ul.active {
     left: 0;
   }
 }
