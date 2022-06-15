@@ -27,7 +27,7 @@ header {
 }
 
 .navbar {
-  min-height: 70px;
+  height: 3px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,7 +44,10 @@ header {
 .logo {
   color: #2d34f0;
   transition: 0.9s ease;
-  font-size: 2rem;
+  font-size: 25px;
+  margin-top: 20px;
+  position: relative;
+  top: 12px;
 }
 
 .nav-link:hover {
@@ -64,6 +67,8 @@ header {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #5e6c84;
+  position: relative;
+  top: 14px;
 }
 
 #main {
@@ -402,6 +407,7 @@ textarea::placeholder {
 @media screen and (max-width: 600px) {
   .nav-toggle {
     display: block;
+    margin-top: 20px;
   }
 
   .nav-toggle.active .barz:nth-child(2) {
