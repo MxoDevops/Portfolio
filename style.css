@@ -226,6 +226,18 @@ li span {
   border: none;
 }
 
+.heading-sub li {
+  display: inline;
+  gap: 2px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  margin-left: 16px;
+  color: #7a869a;
+  position: relative;
+  bottom: 15px;
+}
+
 .info li:first-child {
   color: #344563;
   font-size: 14px;
@@ -450,18 +462,6 @@ textarea::placeholder {
   position: relative;
   right: 10px;
   top: 5px;
-}
-
-.heading-sub li {
-  display: inline;
-  gap: 2px;
-  font-size: 13px;
-  line-height: 16px;
-  font-weight: 600;
-  margin-left: 16px;
-  color: #7a869a;
-  position: relative;
-  bottom: 15px;
 }
 
 .close-btn {
@@ -868,8 +868,9 @@ textarea::placeholder {
     font-size: 40px;
     line-height: 52px;
     font-weight: 52px;
+    margin-bottom: 20px;
     position: relative;
-    bottom: 20px;
+    bottom: 50px;
   }
 
   .heading-sub li {
@@ -899,33 +900,14 @@ textarea::placeholder {
     margin-top: 20px;
     margin-left: 16px;
     position: relative;
-    bottom: 200px;
+    bottom: 250px;
     left: 800px;
-  }
-
-  .modal-1 h2 {
-    font-size: 32px;
-    line-height: 44px;
-    font-weight: 700;
-    position: relative;
-    right: 10px;
-    bottom: 80px;
-  }
-
-  .heading-sub li {
-    display: inline;
-    gap: 2px;
-    font-size: 13px;
-    line-height: 16px;
-    font-weight: 600;
-    margin-left: 16px;
-    margin-top: 20px;
   }
 
   .close-btn {
     position: relative;
     left: 1120px;
-    bottom: 59px;
+    bottom: 80px;
     background-color: #fff;
     border: none;
   }
@@ -941,7 +923,7 @@ textarea::placeholder {
 
   .length {
     position: relative;
-    bottom: 210px;
+    bottom: 255px;
     left: 800px;
   }
 }
