@@ -226,6 +226,18 @@ li span {
   border: none;
 }
 
+.heading-sub li {
+  display: inline;
+  gap: 2px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  margin-left: 16px;
+  color: #7a869a;
+  position: relative;
+  bottom: 15px;
+}
+
 .info li:first-child {
   color: #344563;
   font-size: 14px;
@@ -405,6 +417,84 @@ textarea::placeholder {
   padding: 10px;
 }
 
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-container.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal {
+  background-color: #fff;
+  width: 343px;
+  height: 620px;
+  border-radius: 18px;
+}
+
+.see-btn {
+  width: 100px;
+  height: 40px;
+  border: 2px solid #001aff;
+  border-radius: 10px;
+  color: #0017eb;
+  margin-top: 20px;
+  margin-left: 16px;
+  position: relative;
+  bottom: 27px;
+}
+
+.modal-1 h2 {
+  font-size: 25px;
+  line-height: 33px;
+  font-weight: 700;
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
+
+.close-btn {
+  position: relative;
+  left: 312px;
+  bottom: 23px;
+  background-color: #fff;
+  border: none;
+}
+
+.modal-img {
+  width: 311px;
+  height: 195px;
+  margin-left: 16px;
+  margin-top: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.modal-paragraph {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-left: 16px;
+  position: relative;
+  bottom: 30px;
+}
+
+.length {
+  position: relative;
+  bottom: 25px;
+}
+
 @media screen and (max-width: 600px) {
   .nav-toggle {
     display: block;
@@ -437,7 +527,7 @@ textarea::placeholder {
     flex-direction: column;
     background-color: #396df2e1;
     width: 100%;
-    height: 100%;
+    height: 110%;
     transition: 0.3s;
     align-items: flex-start;
   }
@@ -765,5 +855,75 @@ textarea::placeholder {
     text-align: center;
     margin-left: 175px;
     color: #001aff;
+  }
+
+  .modal {
+    background-color: #fff;
+    width: 1156px;
+    height: 600px;
+    border-radius: 18px;
+  }
+
+  .modal-1 h2 {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 52px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .heading-sub li {
+    display: inline;
+    gap: 2px;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 600;
+    margin-left: 16px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .modal-img {
+    width: 1108px;
+    height: 300px;
+    margin-left: 16px;
+    border-radius: 18px;
+  }
+
+  .see-btn {
+    width: 120px;
+    height: 40px;
+    border: 2px solid #001aff;
+    border-radius: 10px;
+    color: #0017eb;
+    margin-top: 20px;
+    margin-left: 16px;
+    position: relative;
+    bottom: 250px;
+    left: 800px;
+  }
+
+  .close-btn {
+    position: relative;
+    left: 1120px;
+    bottom: 80px;
+    background-color: #fff;
+    border: none;
+  }
+
+  .modal-paragraph {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: 16px;
+    width: 650px;
+    height: 200px;
+  }
+
+  .length {
+    position: relative;
+    bottom: 255px;
+    left: 800px;
   }
 }
