@@ -93,14 +93,42 @@ for (let i = 0; i < arrProject.length; i += 1) {
   addProjects(i);
 }
 
-const popup = document.getElementById('open');
+const popup = document.querySelectorAll('#open');
 const container = document.getElementById('modal-container');
-const close = document.getElementById('close');
+const container2 = document.getElementById('modal-container2');
+const container3 = document.getElementById('modal-container3');
+const container4 = document.getElementById('modal-container4');
+const closebtn = document.getElementById('close');
+const closebtn2 = document.getElementById('close2');
+const closebtn3 = document.getElementById('close3');
+const closebtn4 = document.getElementById('close4');
 
-popup.addEventListener('click', () => {
+popup[0].addEventListener('click', () => {
   container.classList.add('active');
 });
 
-close.addEventListener('click', () => {
+popup[1].addEventListener('click', () => {
+  container2.classList.add('active');
+});
+popup[2].addEventListener('click', () => {
+  container3.classList.add('active');
+});
+popup[3].addEventListener('click', () => {
+  container4.classList.add('active');
+});
+
+closebtn.addEventListener('click', () => {
   container.classList.remove('active');
+});
+
+closebtn2.addEventListener('click', () => {
+  container2.classList.remove('active');
+});
+
+closebtn3.addEventListener('click', () => {
+  container3.classList.remove('active');
+});
+
+closebtn4.addEventListener('click', () => {
+  container4.classList.remove('active');
 });
