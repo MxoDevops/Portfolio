@@ -136,9 +136,9 @@ p {
 
 .work {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cards > * {
@@ -637,9 +637,9 @@ textarea::placeholder {
 
   .work {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .cards > * {
