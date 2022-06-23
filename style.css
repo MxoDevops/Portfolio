@@ -470,6 +470,7 @@ textarea::placeholder {
   bottom: 23px;
   background-color: #fff;
   border: none;
+  cursor: pointer;
 }
 
 .modal-img {
