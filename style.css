@@ -136,9 +136,9 @@ p {
 
 .work {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cards > * {
@@ -228,14 +228,13 @@ li span {
 
 .heading-sub li {
   display: inline;
-  gap: 2px;
   font-size: 13px;
   line-height: 16px;
   font-weight: 600;
   margin-left: 16px;
   color: #7a869a;
   position: relative;
-  bottom: 15px;
+  top: 25px;
 }
 
 .info li:first-child {
@@ -439,60 +438,66 @@ textarea::placeholder {
 .modal {
   background-color: #fff;
   width: 343px;
-  height: 620px;
-  border-radius: 18px;
+  height: 713px;
+  border-radius: 14px;
 }
 
 .see-btn {
-  width: 100px;
+  width: 130px;
   height: 40px;
-  border: 2px solid #001aff;
+  border: 1px solid #001aff;
   border-radius: 10px;
   color: #0017eb;
   margin-top: 20px;
   margin-left: 16px;
   position: relative;
-  bottom: 27px;
+  top: 60px;
 }
 
 .modal-1 h2 {
-  font-size: 25px;
+  font-size: 32px;
   line-height: 33px;
   font-weight: 700;
   position: relative;
   right: 10px;
-  top: 5px;
+  top: 25px;
 }
 
 .close-btn {
   position: relative;
   left: 312px;
-  bottom: 23px;
+  bottom: 7px;
   background-color: #fff;
   border: none;
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 400;
 }
 
 .modal-img {
   width: 311px;
-  height: 195px;
+  height: 220px;
   margin-left: 16px;
   margin-top: 20px;
   position: relative;
-  bottom: 20px;
+  top: 25px;
 }
 
 .modal-paragraph {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 24px;
   font-weight: 400;
   margin-left: 16px;
   position: relative;
-  bottom: 30px;
+  top: 20px;
 }
 
 .length {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 500;
   position: relative;
-  bottom: 25px;
+  top: 50px;
 }
 
 @media screen and (max-width: 600px) {
@@ -637,9 +642,9 @@ textarea::placeholder {
 
   .work {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .cards > * {
@@ -860,8 +865,9 @@ textarea::placeholder {
   .modal {
     background-color: #fff;
     width: 1156px;
-    height: 600px;
+    height: 800px;
     border-radius: 18px;
+    overflow: scroll;
   }
 
   .modal-1 h2 {
@@ -870,7 +876,7 @@ textarea::placeholder {
     font-weight: 52px;
     margin-bottom: 20px;
     position: relative;
-    bottom: 50px;
+    top: 20px;
   }
 
   .heading-sub li {
@@ -881,12 +887,12 @@ textarea::placeholder {
     font-weight: 600;
     margin-left: 16px;
     position: relative;
-    bottom: 30px;
+    bottom: 25px;
   }
 
   .modal-img {
     width: 1108px;
-    height: 300px;
+    height: 586px;
     margin-left: 16px;
     border-radius: 18px;
   }
@@ -900,30 +906,32 @@ textarea::placeholder {
     margin-top: 20px;
     margin-left: 16px;
     position: relative;
-    bottom: 250px;
+    bottom: 370px;
     left: 800px;
   }
 
   .close-btn {
     position: relative;
-    left: 1120px;
-    bottom: 80px;
+    left: 1110px;
+    bottom: 45px;
     background-color: #fff;
     border: none;
+    font-weight: 700;
+    font-size: 15px;
   }
 
   .modal-paragraph {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 24px;
     font-weight: 400;
     margin-left: 16px;
     width: 650px;
-    height: 200px;
+    height: 350px;
   }
 
   .length {
     position: relative;
-    bottom: 255px;
+    bottom: 380px;
     left: 800px;
   }
 }
