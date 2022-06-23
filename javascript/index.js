@@ -26,6 +26,7 @@ const arrProject = [
     sourceLink: 'See Source',
     description1:
       'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    class: 'float2',
   },
 
   {
