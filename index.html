@@ -10,10 +10,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <body>
+  <body id="home">
     <header>
       <nav class="navbar">
-        <a href="#" class="logo">Mx</a>
+        <a href="#home" class="logo">Mx</a>
         <div class="menuNavi">
           <ul class="nav-menu">
             <li class="nav-item">
@@ -294,7 +294,11 @@
           with it
         </p>
       </div>
-      <form action="https://formspree.io/f/mdobbyrd" method="POST">
+      <form
+        action="https://formspree.io/f/mdobbyrd"
+        method="POST"
+        id="footer-form"
+      >
         <label class="label" for="name" hidden> Name</label>
         <input
           class="name"
@@ -321,11 +325,12 @@
           maxlength="500"
           placeholder="Write your message here"
         ></textarea>
-
+        <div id="error"></div>
         <button class="submit" type="submit">Get In Touch</button>
       </form>
     </footer>
     <script src="javascript/popup.js"></script>
     <script src="javascript/index.js"></script>
+    <script src="javascript/validation.js"></script>
   </body>
 </html>

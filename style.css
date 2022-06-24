@@ -440,18 +440,7 @@ textarea::placeholder {
   width: 343px;
   height: 713px;
   border-radius: 14px;
-}
-
-.see-btn {
-  width: 130px;
-  height: 40px;
-  border: 1px solid #001aff;
-  border-radius: 10px;
-  color: #0017eb;
-  margin-top: 20px;
-  margin-left: 16px;
-  position: relative;
-  top: 60px;
+  overflow: scroll;
 }
 
 .modal-1 h2 {
@@ -554,6 +543,27 @@ textarea::placeholder {
   .navbar ul.active {
     left: 0;
   }
+
+  #error {
+    text-align: center;
+    background-color: white;
+    font-size: 19px;
+    margin-left: 30px;
+    border-radius: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
+
+.see-btn {
+  width: 130px;
+  height: 40px;
+  border: 1px solid #001aff;
+  border-radius: 10px;
+  color: #0017eb;
+  margin-top: 20px;
+  margin-left: 16px;
+  position: relative;
+  top: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -739,7 +749,7 @@ textarea::placeholder {
   }
 
   .about-text {
-    width: 4477px;
+    width: 477px;
     height: 102px;
   }
 
@@ -865,7 +875,7 @@ textarea::placeholder {
   .modal {
     background-color: #fff;
     width: 1156px;
-    height: 800px;
+    height: 500px;
     border-radius: 18px;
     overflow: scroll;
   }
@@ -903,11 +913,9 @@ textarea::placeholder {
     border: 2px solid #001aff;
     border-radius: 10px;
     color: #0017eb;
-    margin-top: 20px;
-    margin-left: 16px;
     position: relative;
-    bottom: 370px;
     left: 800px;
+    bottom: 6000px;
   }
 
   .close-btn {
@@ -931,7 +939,15 @@ textarea::placeholder {
 
   .length {
     position: relative;
-    bottom: 380px;
-    left: 800px;
+    bottom: 1200px;
+  }
+
+  #error {
+    text-align: center;
+    background-color: white;
+    font-size: 19px;
+    margin-left: 30px;
+    border-radius: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
