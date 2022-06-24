@@ -543,6 +543,7 @@ textarea::placeholder {
   .navbar ul.active {
     left: 0;
   }
+  
   #error {
     text-align: center;
     background-color: white;
@@ -552,6 +553,7 @@ textarea::placeholder {
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
+
 .see-btn {
   width: 130px;
   height: 40px;
