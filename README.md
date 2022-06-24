@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> Thokozani's portfolio.
+- Thokozani's portfolio.
 
 ## Built With
 
@@ -19,23 +19,22 @@ https://mxodevops.github.io/My-portfolio-microverse/
 
 To get a local copy up and running follow these simple example steps.
 
+1. Open this project https://github.com/MxoDevops/My-portfolio-microverse
+2. Navigate to code
+3. Then click "Download ZIP"
+4. Then locate the file on your local machine
+
 ### Prerequisites
 
 To run this project you will need,
-1)Visual Studio Code.
 
-2.  knowlegde of HTML, CSS & Javascript
+1. Visual Studio Code.
+
+2. knowlegde of HTML, CSS & Javascript
 
 ### Setup
 
-To copy this project please do the following.
-
-1)Open this project 2) Navigate to code 3) Then download the files
-
-### Install
-
-install VS code
-Install webint and styleint
+- Navigate to the folder on your machine then open index.html to view the project
 
 ### Install
 
@@ -48,6 +47,8 @@ Install webint and styleint
 
 ### Deployment
 
+- Deployed on github pages https://mxodevops.github.io/My-portfolio-microverse/
+
 ## Authors
 
 👤 **Thokozani Ngubane**
@@ -55,6 +56,18 @@ Install webint and styleint
 - GitHub: MxoDevops [https://github.com/MxoDevops]
 - Twitter: @Godecuy [https://twitter.com/Godecuy]
 - LinkedIn: Thokozani Ngubane [https://www.linkedin.com/in/thokozani-ngubane-125b26189/]
+
+👤 Rehema Mwaka
+
+- GitHub: @githubhandle
+- Twitter: @twitterhandle
+- LinkedIn: LinkedIn
+
+👤 Hamayoun Ali
+
+- GitHub: @hamayounali
+
+- Twitter: @hamayounali6
 
 ## 🤝 Contributing
 
