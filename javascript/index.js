@@ -3,7 +3,7 @@ const demo = document.getElementById('portfolio');
 const arrProject = [
   {
     name: 'Tonic',
-    devInfo: 'Canopy',
+    devInfo: 'Thokozani',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text.",
     languages: ['html', 'css', 'javascript'],
@@ -17,10 +17,10 @@ const arrProject = [
 
   {
     name: 'Multi-Post Stories',
-    devInfo: 'Canopy',
+    devInfo: 'Thokozani',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text.",
-    languages: ['html', 'css', 'javascript'],
+    languages: ['html', 'css', 'javascript', 'Ruby'],
     image: 'images/SnapshootPortfolio2.png',
     liveVersion: 'See Live',
     sourceLink: 'See Source',
@@ -31,7 +31,7 @@ const arrProject = [
 
   {
     name: 'Facebook',
-    devInfo: 'Canopy',
+    devInfo: 'Thokozani',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text.",
     languages: ['html', 'css', 'javascript'],
@@ -44,7 +44,7 @@ const arrProject = [
 
   {
     name: 'Uber Navigation',
-    devInfo: 'Canopy',
+    devInfo: 'Thokozani',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text.",
     languages: ['html', 'css', 'javascript'],
@@ -69,7 +69,7 @@ function addProjects(n) {
             <ul class="info">
               <li>${devInfo}</li>
               <li><img class="dot" alt="" src="images/Counter.png" /></li>
-              <li>Backend dev</li>
+              <li>Frontend developer</li>
               <li><img class="dot" alt="button" src="images/Counter.png" /></li>
               <li>2022</li>
             </ul>
@@ -80,6 +80,8 @@ function addProjects(n) {
               <li>${languages[0]}</li>
               <li>${languages[1]}</li>
               <li>${languages[2]}</li>
+              <li>${languages[4]}</li>
+              
             </ul>
             <button type="button" id="open" class="project-btn" type="submit">
               See Project
