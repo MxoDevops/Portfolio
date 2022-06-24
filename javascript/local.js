@@ -26,6 +26,6 @@ if (!localStorage.getItem('userInput')) {
 } else {
   setFormData();
 }
-userNames.onchange = populateLocalStorage;
-userEmails.onchange = populateLocalStorage;
-userMessages.onchange = populateLocalStorage;
+userNames.onkeyup = populateLocalStorage;
+userEmails.onkeyup = populateLocalStorage;
+userMessages.onkeyup = populateLocalStorage;
