@@ -44,17 +44,6 @@ To run this project you will need,
 - Twitter: @Godecuy [https://twitter.com/Godecuy]
 - LinkedIn: Thokozani Ngubane [https://www.linkedin.com/in/thokozani-ngubane-125b26189/]
 
-👤 Rehema Mwaka
-
-- GitHub: @githubhandle
-- Twitter: @twitterhandle
-- LinkedIn: LinkedIn
-
-👤 Hamayoun Ali
-
-- GitHub: @hamayounali
-
-- Twitter: @hamayounali6
 
 ## 🤝 Contributing
 
