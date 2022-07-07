@@ -2,16 +2,14 @@ const demo = document.getElementById('portfolio');
 
 const arrProject = [
   {
-    name: 'Tonic',
+    name: 'Kontrol+ Alt',
     devInfo: 'Thokozani',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text.",
+    description: 'A website of a hackathon event.',
     languages: ['html', 'css', 'javascript'],
-    image: 'images/SnapshootPortfolio.png',
+    image: 'images/Capture666.png',
     liveVersion: 'See Live',
     sourceLink: 'See Source',
-    description1:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    description1: 'A website of a hackathon event.',
     id: 'open',
   },
 
@@ -20,12 +18,11 @@ const arrProject = [
     devInfo: 'Thokozani',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text.",
-    languages: ['html', 'css', 'javascript', 'Ruby'],
+    languages: ['html', 'css', 'javascript'],
     image: 'images/SnapshootPortfolio2.png',
     liveVersion: 'See Live',
     sourceLink: 'See Source',
-    description1:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required',
+    description1: 'A website of a hackathon event',
     class: 'float2',
   },
 
@@ -80,7 +77,6 @@ function addProjects(n) {
               <li>${languages[0]}</li>
               <li>${languages[1]}</li>
               <li>${languages[2]}</li>
-              <li>${languages[4]}</li>
               
             </ul>
             <button type="button" id="open" class="project-btn" type="submit">
