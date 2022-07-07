@@ -6,7 +6,7 @@ const arrProject = [
     devInfo: 'Thokozani',
     description: 'A website of a hackathon event.',
     languages: ['html', 'css', 'javascript'],
-    image: 'images/Capture666.png',
+    image: 'images/Capture666.PNG',
     liveVersion: 'See Live',
     sourceLink: 'See Source',
     description1: 'A website of a hackathon event.',
