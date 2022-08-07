@@ -10,7 +10,7 @@
 
 ## Online Version
 
-https://mxodevops.github.io/My-portfolio-microverse/
+https://mxodevops.github.io/portfolio/
 
 ## Getting Started
 
