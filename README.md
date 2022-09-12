@@ -16,7 +16,7 @@ https://mxodevops.github.io/portfolio/
 
 To copy this project please do the following.
 
-1. Open this project https://github.com/MxoDevops/My-portfolio-microverse
+1. Open this project https://github.com/MxoDevops/portfolio
 2. Navigate to code
 3. Then click "Download ZIP" to save the code locally
 
