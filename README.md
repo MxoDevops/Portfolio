@@ -4,6 +4,11 @@
 
 > Thokozani's portfolio.
 
+## Screenshot
+
+![port](https://user-images.githubusercontent.com/66553292/189889690-dd945c10-8c8d-4a67-8152-ae0ebe3f55af.png)
+
+
 ## Built With
 
 - HTML CSS & JAVASCRIPT
