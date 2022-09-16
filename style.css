@@ -442,9 +442,8 @@ textarea::placeholder {
 .modal {
   background-color: #fff;
   width: 343px;
-  height: 713px;
+  height: 600px;
   border-radius: 14px;
-  overflow: scroll;
 }
 
 .modal-1 h2 {
@@ -885,17 +884,16 @@ textarea::placeholder {
 
   .modal {
     background-color: #fff;
-    width: 1156px;
+    width: 900px;
     height: 500px;
     border-radius: 18px;
-    overflow: scroll;
+    overflow-x: scroll;
   }
 
   .modal-1 h2 {
     font-size: 40px;
     line-height: 52px;
     font-weight: 52px;
-    margin-bottom: 20px;
     position: relative;
     top: 20px;
   }
@@ -912,8 +910,8 @@ textarea::placeholder {
   }
 
   .modal-img {
-    width: 1108px;
-    height: 586px;
+    width: 600px;
+    height: 400px;
     margin-left: 16px;
     border-radius: 18px;
   }
@@ -925,13 +923,13 @@ textarea::placeholder {
     border-radius: 10px;
     color: #0017eb;
     position: relative;
-    left: 800px;
-    bottom: 6000px;
+    left: 10px;
+    bottom: 600px;
   }
 
   .close-btn {
     position: relative;
-    left: 1110px;
+    left: 700px;
     bottom: 45px;
     background-color: #fff;
     border: none;
